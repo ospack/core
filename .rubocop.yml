@@ -227,3 +227,4 @@ Style/UnlessLogicalOperators:
   EnforcedStyle: forbid_logical_operators
 Style/WordArray:
   MinSize: 4
+

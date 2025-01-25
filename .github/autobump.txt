@@ -303,7 +303,7 @@ bpftop
 braid
 breezy
 brev
-brew-php-switcher
+ospack-php-switcher
 brogue
 brook
 broot

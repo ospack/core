@@ -1,0 +1,15 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Request a change to a formula
+    url: https://docs.ospack.github.io/How-To-Open-a-Ospack-Pull-Request
+    about: Is something missing in a formula? Follow this guide to request new features in formulae.
+  - name: Get help in GitHub Discussions
+    url: https://github.com/orgs/Ospack/discussions
+    about: Have a question? Not sure if your issue affects everyone reproducibly? The quickest way to get help is on Ospack's GitHub Discussions!
+  - name: New issue on Ospack/ospack
+    url: https://github.com/Ospack/ospack/issues/new/choose
+    about: Having a `ospack` problem that's not from a `ospack install` or `ospack upgrade` of a single formula/package? Report it to Ospack/ospack (the Ospack package manager).
+  - name: New issue on Ospack/ospack-cask
+    url: https://github.com/Ospack/ospack-cask/issues/new/choose
+    about: Having a Ospack Cask problem? Report it to Ospack/ospack-cask (the cask tap/repository)

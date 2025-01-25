@@ -1,0 +1,24 @@
+# Note that the naming of this file is incorrect for our case: these people do not "own" the provided files but are
+# people with write-access to this repository (i.e. @Ospack/core) who wish to approve changes to these files.
+#
+# Their review is required to merge PRs that change these files.
+#
+# To be explicit: we will never accept changes to this file adding people from outside the Ospack GitHub
+# organisation. If you are not a Ospack maintainer: you do not personally "own" or "maintain" any formulae.
+#
+# Note: @Ospack/plc does not have write-access to this repository, and therefore cannot be listed in this file.
+
+CODEOWNERS                        @Ospack/tsc @MikeMcQuaid
+CONTRIBUTING.md                   @Ospack/tsc @MikeMcQuaid 
+tap_migrations.json               @Ospack/tsc @MikeMcQuaid 
+.github/ISSUE_TEMPLATE/           @Ospack/tsc @MikeMcQuaid 
+.github/PULL_REQUEST_TEMPLATE.md  @Ospack/tsc @MikeMcQuaid 
+LICENSE.txt                       @Ospack/tsc @MikeMcQuaid
+.github/workflows/                @Ospack/core @MikeMcQuaid 
+.github/workflows/triage.yml      @Ospack/tsc
+
+audit_exceptions/linux_only_gcc_dependency_allowlist.json               @Ospack/tsc
+audit_exceptions/permitted_formula_license_mismatches.json              @Ospack/tsc @MikeMcQuaid
+audit_exceptions/provided_by_macos_depends_on_allowlist.json            @Ospack/tsc @MikeMcQuaid
+audit_exceptions/universal_binary_allowlist.json                        @Ospack/tsc @carlocab 
+audit_exceptions/versioned_formula_dependent_conflicts_allowlist.json   @Ospack/tsc @MikeMcQuaid

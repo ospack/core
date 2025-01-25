@@ -14,3 +14,4 @@ updates:
     artifacts:
       patterns:
       - actions/*-artifact
+
